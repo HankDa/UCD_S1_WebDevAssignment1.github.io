@@ -1,0 +1,69 @@
+/* Change color on hover */
+.topnav a:hover:not(.active) {
+  background-color: #ddd;
+  color: black;
+}
+#mainContent_edu{
+    min-height: 100%;
+    padding-top:5%;
+    padding-bottom:50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white
+}
+
+#mainContent_edu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columnTop {
+/*  float: left;*/
+  width: 100%;
+  padding: 15px;
+}
+.columnDown {
+/*  float: right;*/
+  width: 100%;
+  padding: 50px;
+}
+
+#edu_table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#edu_table.td, #edu_table.th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+td,th{
+    width: 33%;
+}
+
+#edu_table.tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+figure {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.pic_uni{
+    width:100px;
+    height: auto;
+    vertical-align: middle;
+}
+
+figcaption{
+    font-size: 10px;
+}
